@@ -167,4 +167,7 @@
     <Build Include="Database Triggers\ddlDatabaseTriggerLog.sql" />
     <Build Include="Security\Permissions.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="AdventureWorksDW2017_prj.refactorlog" />
+  </ItemGroup>
 </Project>
