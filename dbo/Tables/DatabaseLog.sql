@@ -7,6 +7,7 @@
     [Object]        [sysname]      NULL,
     [TSQL]          NVARCHAR (MAX) NOT NULL,
     [XmlEvent]      XML            NOT NULL,
+    [_ind] DATETIME NULL DEFAULT (getdate()), 
     CONSTRAINT [PK_DatabaseLog_DatabaseLogID] PRIMARY KEY NONCLUSTERED ([DatabaseLogID] ASC)
 );
 
